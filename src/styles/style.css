@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  text-align: center;
+  position: relative;
+  background: url("../img/header_bg.jpg") no-repeat center center/cover;
+  height: 62vh;
+  color: white;
+  padding-top: 75px;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  margin: auto;
+  line-height: 2em;
+}
+
+.logo {
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 170px;
+  height: 65px;
+  background: url("../img/header_logo_white.png") no-repeat;
+}
+
+.nav {
+  background-color: black;
+}
+
+.links {
+  background-color: white;
+}
+.content {
+  color: white;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  margin-bottom: 7vh;
+}
+.events {
+  margin: auto;
+  padding: auto;
+  margin-top: -15px;
+  margin-right: 30vh;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  margin: auto;
+}
+
+.twitter-timeline {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    display: block;
+  }
+  .twitter-timeline {
+    margin-left: 1vh;
+  }
+  .header {
+    font-size: 1.75rem;
+  }
+}
+.btn {
+  margin-right: 5vh;
+  margin-top: 3vh;
+}
+.btn:hover {
+  transform: scale(1.15);
+  transition: all 1s;
+}
+.desc {
+  line-height: 2em;
+  margin-top: 7vh;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Oxanium&display=swap");
+
+h1,
+p {
+  font-family: "Oxanium", cursive;
+}
+.card:hover {
+  transform: scale(1.04);
+  transition: all 1s;
+}
+.team {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  margin-top: 10vh;
+}
+
+@media (max-width: 1000px) {
+  .team {
+    display: block;
+  }
+}
